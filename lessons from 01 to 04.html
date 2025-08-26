@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- 1- -->
+
+/* Any Element With Class Title */
+.title {
+}
+
+/* Any Element With id Title */
+#nav {
+}
+
+/* Any div element */
+div {
+}
+
+/* Any H2 element */
+h2 {
+}
+
+<!-- 2- -->
+
+<!-- External file -->
+<link rel="stylesheet" href="css/file.css" />
+
+<!-- internal Css -->
+<style>
+p {
+  color: red;
+}
+</style>
+
+<!-- inline Css -->
+<p style="color: blue;">This Is Our Paragraph</p>
+
+<!-- 3- -->
+
+<link rel="stylesheet" href="./assets/master.css" >
+
+
+<!-- 4- -->
+
+/* good */
+._user-name {
+}
+
+/* good */######
+.-user-name {
+}
+
+/* not */
+.1user-name {
+}
+
+/* not */
+.@user-name {
+}
+
+/* not */#####
+.user@name {
+}
+
+/* good */
+._user10name {
+}
+
+/* good */
+.u {
+}
+
+<!-- 5- -->
+
+/* bad */
+.USERNAME {
+}
+
+/* Bad */#####
+.UserName {
+}
+
+/* GOOOOOD */
+.user-name {
+}
+
+/* bad */#######
+.userName {
+}
+
+/* bad */
+.usernameprofile {
+}
+
+</body>
+</html>
